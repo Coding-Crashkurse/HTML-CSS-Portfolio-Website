@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="hero">
+        <nav class="navbar">
+            <div class="container flex">
+                <h2 class="logo">Coding Crashkurse</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h4>Hallo, ich bin...</h4>
+            <h1>Coding Crashkurse</h1>
+            <h2>Full Stack Developer</h2>
+        </div>
+
+        <div class="goto">
+            <a href="#projects" class="btn highlight">Zu den Projekten<i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container flex">
+            <img src="/images/profil.jpg" alt="" width="500px">
+            <div class="about-text">
+                <h1>Über mich</h1>
+                <h2>Full Stack Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum asperiores aspernatur, numquam consequuntur explicabo veniam pariatur temporibus magni officiis doloremque ipsam ab deserunt! Incidunt accusantium officia numquam perferendis eum sapiente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="title">
+            <h1>Meine Skills</h1>
+        </div>
+        <div class="skills container grid grid-skills">
+            <div class="card flex">
+                <img src="/images/sprachen/html.png" alt="">
+            </div>
+            <div class="card flex">
+                    <img src="/images/sprachen/css.png" alt="">
+            </div>
+            <div class="card flex">
+                <img src="/images/sprachen/python.png" alt="">
+            </div>
+            <div class="card flex">
+                <img src="/images/sprachen/javascript.png" alt="">
+            </div>
+            <div class="card flex">
+                <img src="/images/sprachen/typescript.png" alt="">
+            </div>
+            <div class="card flex">
+                <img src="/images/sprachen/golang.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="title">
+            <h1>Meine Projekte</h1>
+        </div>
+
+        <div class="container flex">
+			<div class="card">
+				<i class="fas fa-code"></i>
+				<h4>Web Development</h4>
+				<div class="project">
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, vero? Quisquam corporis eum sed, officiis necessitatibus impedit! Explicabo illum quasi iste voluptates deserunt ab voluptas quaerat? Tempore hic dolor quos ea tenetur provident iure libero nam eaque quas asperiores</p>
+
+					<p style="text-align: center;">
+						<a class="btn btn-outline" href="#">Projet 1</a>
+					</p>
+				</div>
+			</div>
+            <div class="card">
+				<i class="fas fa-code"></i>
+				<h4>Web Development</h4>
+				<div class="project">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, vero? Quisquam corporis eum sed, officiis necessitatibus impedit! Explicabo illum quasi iste voluptates deserunt ab voluptas quaerat? Tempore hic dolor quos ea tenetur provident iure libero nam eaque quas asperiores</p>
+
+					<p style="text-align: center;">
+						<a class="btn btn-outline" href="#">Projekt 2</a>
+					</p>
+				</div>
+			</div>
+            <div class="card">
+				<i class="fas fa-code"></i>
+				<h4>Web Development</h4>
+				<div class="project">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, vero? Quisquam corporis eum sed, officiis necessitatibus impedit! Explicabo illum quasi iste voluptates deserunt ab voluptas quaerat? Tempore hic dolor quos ea tenetur provident iure libero nam eaque quas asperiores</p>
+
+					<p style="text-align: center;">
+						<a class="btn btn-outline" href="#">Projekt 3</a>
+					</p>
+				</div>
+			</div>
+        </div>
+    </section>
+
+    <section class="kontakt" id="kontakt">
+        <div class="container">
+            <div class="title">
+                <h1>Kontaktiere mich</h1>
+            </div>
+            <form action="#" class="contactform">
+                <div class="left">
+                    <label for="fname">Vorname</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Nachname</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Land</label>
+                    <select id="country" name="country">
+                      <option value="australia">Deutschland</option>
+                      <option value="austria">Östtereich</option>
+                      <option value="switzerland">Schweiz</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <label for="subject">Anliegen</label>
+                    <textarea id="subject" name="subject" placeholder="Beschreibe dein Anliegen.." style="height:100%"></textarea>
+                    <input type="submit" value="Submit" class="btn-outline">
+                </div>
+              </form>
+          </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container flex">
+            <div class="name">
+                <p>Coding Crashkurse</p>
+            </div>
+            <div class="social flex">
+                <div class="icon_wrapper">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="icon_wrapper">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="icon_wrapper">
+                    <i class="fab fa-youtube"></i>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2022</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
